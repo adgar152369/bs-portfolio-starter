@@ -2,32 +2,61 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/fontawesome.css">
-    <title>Bootstrap 5 Portfolio Starter</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/fontawesome.css">
+  <title>Bootstrap 5 Portfolio Starter</title>
 </head>
 
 <body>
-    <div class="container d-flex flex-column align-items-center justify-content-center vh-100 w-50">
-            <h1 class="text-primary"><i class="fas fa-star"></i>Bootstrap 5 Portfolio Starter</h1>
-            <p>This is a simple boilerplate for creating a quick and custom portfolio.</p>
-            <p class="text-bg-light text-center rounded-2 px-4 py-2 fw-bold shadow-sm">For example, take a look at: <span class="text-danger"> node_modules/bootstrap/dist/scss/_variables.scss</span> file to overwrite some of the variables in your own scss files.</p><br>
-        <div class="text-start w-100">
-            <h3 class="text-secondary">Technologies:</h3>
-            <ul>
-                <li>Bootstrap 5</li>
-                <li>Sass/Scss</li>
-                <li>Font Awesome</li>
-            </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          Your Brand Here
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link fw-semibold">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#details" class="nav-link fw-semibold">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">
+                <button type="button" class="btn btn-outline-light fw-semibold">Contact</button>
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        </div>
+      </div>
     </div>
+  </div>
 
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

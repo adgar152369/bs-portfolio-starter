@@ -1,5 +1,38 @@
-$primary: green;
-$danger: #d76161;
+// Colors
+// pallete from Coolors.co:
+// https://coolors.co/eec643-141414-eef0f2-0d21a1-011638
+$primary: #eec643;
+$secondary: #141414;
+$dark: #141414;
+$light: #eef0f2;
+
+// Navbar
+$navbar-padding-y: 1rem;
+$navbar-dark-hover-color: $primary;
+$navbar-dark-color: $light;
+
+// Buttons
+$button-padding-y: 30px;
+$button-padding-x: 10px;
+$btn-link-hover-color: $dark;
+
+// Spacing
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 5,
+  7: $spacer * 7,
+  8: $spacer * 9,
+  9: $spacer * 12,
+  10: $spacer * 15,
+) !default;
+
+
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
